@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  kafka:
+    image: bashj79/kafka-kraft
+    container_name: kafka-without-zookeeper
+    ports:
+      - "9092:9092"
